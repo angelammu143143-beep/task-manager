@@ -1,0 +1,36 @@
+# ===== Backend (Java / Maven) =====
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+*.class
+*.jar
+*.war
+
+# ===== Frontend (Node / React / Vite) =====
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.factorypath
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Env =====
+.env
+.env.local
